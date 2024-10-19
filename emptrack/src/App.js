@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Admin from './pages/Admin';
 import HR from './pages/HR';
 import Employee from './pages/Employee';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 
 const App = () => {

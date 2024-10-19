@@ -2,11 +2,21 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
   }
     
+  .navbar-brand .brand-first, .navbar-brand .brand-second{
+    padding-top: 10px;
+    font-weight: 800;
+  }
+
+  .navbar-brand .brand-first{
+    color: rgb(218, 187, 47);
+  }
+
+
   nav {
-    background-color: #333;
+    background-color:#006ebd;
     color: white;
     padding: 1rem;
   }
@@ -44,8 +54,8 @@ body {
   
 /* src/styles/Navbar.css */
 nav {
-    background-color: #f8f9fa;
-    padding: 10px;
+    background-color: #006ebd;
+    padding: 64px 10px;
   }
   
   ul {
